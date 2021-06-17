@@ -16,7 +16,7 @@ class Bird {
 
     display() {
 
-        //till we havve the catapult ready, we will make the bird object move with mouse
+        //till we have the catapult ready, we will make the bird object move with mouse
         var pos = this.birdBody.position;
         pos.x = mouseX;
         pos.y = mouseY;
